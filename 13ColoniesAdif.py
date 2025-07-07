@@ -5,7 +5,7 @@ import os
 # List of 13 Colonies Special Event stations, plus WM3PEN and GB13COL
 colonies_callsigns = {
     "K2A", "K2B", "K2C", "K2D", "K2E", "K2F", "K2G", "K2H", "K2I", "K2J", "K2K", "K2L", "K2M",
-    "WM3PEN", "GB13COL"
+    "WM3PEN", "GB13COL", "TM13COL"
 }
 
 def file_exists(filepath):
@@ -39,6 +39,8 @@ if __name__ == "__main__":
         print("")
         print("Author: Jason Johnson <k3jsj@arrl.net>")
         print("")
+        print("Version: 1.0.1 (July 7th, 2025)")
+        print("")
         print("AI DISCLAIMER")
         print("Portions of this program were generated using AI.")
         print("")
@@ -57,6 +59,7 @@ This software may reference third-party systems or events (such as the 13 Coloni
     output_file = sys.argv[2]
     if (file_exists(input_file)):
         filter_adif(input_file, output_file)
+        print(f"13ColoniesAdif - Version 1.0.1 (July 7, 2025)")
         print(f"Filtered 13 Colonies QSOs saved to {output_file}")
     else:
         print(f"Error:  input file does not exist or cannot be read")

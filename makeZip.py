@@ -12,4 +12,4 @@ def create_zip(zip_filename, files_to_zip):
 
 # Example usage
 files = ["README.txt", "13ColoniesAdif.exe"]
-create_zip("13ColoniesAdif-1.0.zip", files)
+create_zip("13ColoniesAdif-1.0.1.zip", files)

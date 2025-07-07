@@ -1,3 +1,5 @@
+delete dist\13ColoniesAdif.exe
+
 pyinstaller --onefile --distpath ./dist 13ColoniesAdif.py
 
 copy README.txt dist\README.txt
