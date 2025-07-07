@@ -6,6 +6,9 @@ Jason Johnson <k3jsj@arrl.net>
 Date:
 July 6th, 2025
 
+Link to source code:
+https://github.com/VikingNation/13ColoniesAdif
+
 Purpose:
 Program that processes ADIF file generated from N3FJP and outputs second ADIF file that only contains QSO records with 13 Colonies Special Event station call signs
 
